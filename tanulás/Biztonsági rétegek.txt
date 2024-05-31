@@ -1,0 +1,76 @@
+A biztonsági rétegek
+
+A biztonsági rétegek egy olyan modell, amely a számítógépes rendszerek biztonságát különböző szinteken vizsgálja. A rétegek a következők:
+
+Fizikai réteg: A fizikai réteg a számítógépes rendszer fizikai hardverét védi. Ide tartozik a számítógépes hardver, a hálózati hardver és a tárolóeszközök.
+
+Hálózati réteg: A hálózati réteg a számítógépes rendszerek közötti kommunikációt védi. Ide tartoznak a hálózati protokollok és eszközök.
+
+Szállítási réteg: A szállítási réteg az adatokat továbbítja a hálózati rétegben. Ide tartoznak az adatkapcsolati és szállítási protokollok.
+
+Alkalmazási réteg: Az alkalmazási réteg a felhasználó által használt alkalmazásokat védi. Ide tartoznak az alkalmazások és az adatok.
+
+A fizikai réteg a számítógépes rendszer fizikai hardverét védi. Ide tartoznak a következők:
+
+Számítógépes hardver
+Hálózati hardver
+Tárolóeszközök
+A fizikai réteg biztonságának megerősítése érdekében a következő intézkedéseket lehet tenni:
+
+Számítógépek és egyéb eszközök biztonságos tárolása
+Jól működő fizikai biztonsági intézkedések, például rácsok, zárak és megfigyelő kamerák telepítése
+Számítógépek és egyéb eszközök rendszeres ellenőrzése
+Hálózati réteg
+
+A hálózati réteg a számítógépes rendszerek közötti kommunikációt védi. Ide tartoznak a következők:
+
+Hálózati protokollokat
+Hálózati eszközöket
+A hálózati réteg biztonságának megerősítése érdekében a következő intézkedéseket lehet tenni:
+
+Hálózati protokollokat és eszközöket használni, amelyek biztonságosak és naprakészek
+Hálózati forgalomfigyelést és -elemzést használni
+Számítógépek és hálózati eszközök biztonsági frissítéseinek rendszeres telepítése
+Szállítási réteg
+
+A szállítási réteg az adatokat továbbítja a hálózati rétegben. Ide tartoznak a következők:
+
+Adatkapcsolati protokollokat
+Szállítási protokollokat
+A szállítási réteg biztonságának megerősítése érdekében a következő intézkedéseket lehet tenni:
+
+Adatkapcsolati és szállítási protokollokat használni, amelyek biztonságosak és naprakészek
+Adatokat titkosítani a szállítás során
+Alkalmazási réteg
+
+Az alkalmazási réteg a felhasználó által használt alkalmazásokat védi. Ide tartoznak a következők:
+
+Alkalmazásokat és adatokat
+Az alkalmazási réteg biztonságának megerősítése érdekében a következő intézkedéseket lehet tenni:
+
+Biztonságos alkalmazásokat használni
+Alkalmazásokat és adatokat titkosítani
+Alkalmazások és adatok biztonsági frissítéseinek rendszeres telepítése
+A biztonsági rétegek közötti kapcsolat
+
+A biztonsági rétegek egymással szorosan összefüggenek. Ha egy réteg biztonsága gyenge, akkor az a többi réteget is veszélyezteti. Ezért fontos, hogy minden réteget megfelelően védjenek.
+
+A biztonsági rétegek és a hackerkedés
+
+A hackerek a biztonsági rétegek gyengeségeit kihasználva próbálnak hozzáférni a számítógépes rendszerekhez. A hackerkedés megértéséhez fontos, hogy ismerjük a biztonsági rétegeket és azok gyengeségeit.
+
+A biztonsági rétegek megerősítése
+
+A biztonsági rétegek megerősítése érdekében a következőket tehetjük:
+
+Ismerjük meg a biztonsági rétegeket és azok gyengeségeit
+Használjunk biztonságos hardvert, szoftvert és alkalmazásokat
+Tartsuk naprakészen a biztonsági frissítéseket
+Tanuljunk meg alapvető biztonsági technikákat, például a jelszavak kezelését és a biztonságos böngészést
+A biztonsági rétegek tanulása
+
+A biztonsági rétegek megértése és azok megerősítése érdekében számos forrás áll rendelkezésre. Ezek közé tartoznak a könyvek, az online tanfolyamok és a biztonsági szakemberektől származó tanácsadás.
+
+A biztonsági rétegek fontossága
+
+A biztonsági rétegek fontosak a számítógépes rendszerek biztonságának megőrzéséhez. A biztonsági rétegek megerősítésével csökkenthetjük a hackerkedés kockázatát.

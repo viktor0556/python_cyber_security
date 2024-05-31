@@ -1,0 +1,9 @@
+Számítógépes biztonsági technikák
+
+A számítógépes biztonság a számítógépes rendszerek és hálózatok védelmét jelenti a jogosulatlan hozzáféréstől, a manipulációtól és a megsemmisítéstől. A számítógépes biztonsági technikák olyan eszközök és eljárások, amelyeket a számítógépes rendszerek és hálózatok biztonságának biztosítására használnak.
+
+A számítógépes biztonsági technikák három fő kategóriába sorolhatók:
+
+Személyes azonosítás és hitelesítés (authentication): Ezek a technikák a felhasználók személyazonosságának ellenőrzésére szolgálnak. A leggyakoribb módszerek a felhasználónevek és jelszavak, a biometriai azonosítás (például ujjlenyomat- vagy arcfelismerés) és a kéttényezős hitelesítés.
+Hozzáférési ellenőrzés (access control): Ezek a technikák meghatározzák, hogy kinek van hozzáférése a rendszerhez vagy a hálózathoz. A leggyakoribb módszerek a szerepalapú hozzáférés-szabályozás (RBAC), a szabályalapú hozzáférés-szabályozás (ACL) és a hálózati biztonsági sávok (VLAN).
+Adatvédelem (data protection): Ezek a technikák az adatok titkosítására és sértetlenségének biztosítására szolgálnak. A leggyakoribb módszerek a titkosítás, a hitelesítés és a hozzáférés-szabályozás.

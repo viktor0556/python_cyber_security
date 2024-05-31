@@ -1,0 +1,35 @@
+Hálózati biztonság
+
+A hálózati biztonság a számítógépek és hálózatok védelmét jelenti a jogosulatlan hozzáféréstől, a szolgáltatásmegtagadásoktól, a kémkedéstől és más sérülékenységektől.
+
+A hálózati biztonság alapjai
+
+A hálózati biztonság alapja a következő:
+
+Azonosítás és hitelesítés: Azonosítani kell a felhasználókat, és hitelesíteni kell, hogy jogosultak-e hozzáférni a hálózathoz.
+Engedélyezés: Meg kell határozni, hogy a felhasználók milyen erőforrásokhoz férhetnek hozzá.
+Elkülönítés: Meg kell különíteni a különböző erőforrásokat, hogy a sérülékenységek ne terjedhessenek át.
+Biztonsági auditok: Rendszeresen ellenőrizni kell a hálózatot, hogy megbizonyosodjunk arról, hogy biztonságos.
+A hálózati biztonsági kockázatok
+
+A hálózati biztonsági kockázatok a következők:
+
+Jogosulatlan hozzáférés: A jogosulatlan felhasználók hozzáférhetnek a hálózathoz, és károkat okozhatnak.
+Szolgáltatásmegtagadás: A támadók megzavarhatják a hálózati szolgáltatásokat.
+Kémkedés: A támadók kémkedhetnek a hálózati forgalom után.
+Adathalászat: A támadók megpróbálhatnak személyes adatokat szerezni a felhasználóktól.
+A hálózati biztonsági eszközök
+
+A hálózati biztonsági eszközök a következők:
+
+Tűzfal: A tűzfal megakadályozza, hogy a jogosulatlan felhasználók hozzáférjenek a hálózathoz.
+Védelmi szoftver: A védelmi szoftver felismeri és megvédi a hálózatot a vírusoktól, a trójai falvakról és más kártékony programoktól.
+Identitás- és hozzáférési menedzsment (IAM) rendszer: Az IAM rendszerek segítenek azonosítani és hitelesíteni a felhasználókat, valamint szabályozni a hozzáférést.
+A hálózati biztonsági gyakorlatok
+
+A hálózati biztonsági gyakorlatok a következők:
+
+Biztonságos jelszavak használata: A jelszavaknak erősnek és változatosnak kell lenniük.
+A szoftver naprakészen tartása: A szoftverfrissítések gyakran tartalmaznak biztonsági javításokat.
+A biztonsági szabályzatok betartása: A biztonsági szabályzatok segítenek megvédeni a hálózatot.
+

@@ -1,0 +1,32 @@
+
+Web biztonsági jegyzet
+
+Bevezetés
+
+A web biztonság az a terület, amely a webes alkalmazások és szolgáltatások biztonságát vizsgálja. A webes alkalmazások és szolgáltatások egyre fontosabb szerepet játszanak az életünkben, ezért a web biztonsága egyre nagyobb figyelmet kap.
+
+A web biztonsági fenyegetések
+
+A web biztonsági fenyegetések egyre kifinomultabbak és veszélyesebbek. A leggyakoribb web biztonsági fenyegetések a következők:
+
+Adathalászat: Az adathalászat egy olyan támadás, amelyben a támadók megpróbálják megszerezni a felhasználók személyes adatait, például jelszavaikat vagy bankkártyaadataikat.
+Malware: A malware egy olyan szoftver, amely kárt okozhat a számítógépben vagy az adatokban. A malware egyik leggyakoribb formája a vírus.
+SQL-injekció: A SQL-injekció egy olyan támadás, amelyben a támadók SQL parancsokat hajtanak végre egy webes alkalmazáson keresztül.
+Cross-site scripting (XSS): Az XSS egy olyan támadás, amelyben a támadók kódot fecskendeznek be egy webes alkalmazásba.
+Fizikai biztonsági fenyegetések: A fizikai biztonsági fenyegetések olyan fenyegetések, amelyek a webes alkalmazások vagy szolgáltatások fizikai infrastruktúráját célozzák.
+A web biztonsági védelem
+
+A web biztonsági védelem érdekében a webes alkalmazásokat és szolgáltatásokat megfelelő biztonsági intézkedésekkel kell védeni. A leggyakoribb web biztonsági védelmi intézkedések a következők:
+
+Jelszók erősítése: A jelszavakat erősnek kell megválasztani, és rendszeresen cserélni kell.
+Malware-védelem: A számítógépet és a hálózatot malware-védelemmel kell védeni.
+SQL-injekció elleni védelem: A webes alkalmazásokat SQL-injekció elleni védelemmel kell ellátni.
+XSS elleni védelem: A webes alkalmazásokat XSS elleni védelemmel kell ellátni.
+Fizikai biztonság: A webes alkalmazások és szolgáltatások fizikai infrastruktúráját fizikai biztonsági intézkedésekkel kell védeni.
+Web biztonsági ismeretek
+
+Ahhoz, hogy sikeres web hacker legyél, szükséged van bizonyos web biztonsági ismeretekkel. Ezek az ismeretek a következők:
+
+Az alapvető webes technológiák ismerete: A webes technológiák, például a HTML, a CSS és a JavaScript ismerete elengedhetetlen a web biztonsági ismeretek elsajátításához.
+A web biztonsági fenyegetések ismerete: A web biztonsági fenyegetések ismerete segít abban, hogy felismerd a potenciális fenyegetéseket.
+A web biztonsági védelmi intézkedések ismerete: A web biztonsági védelmi intézkedések ismerete segít abban, hogy megvédd magad a fenyegetésektől.

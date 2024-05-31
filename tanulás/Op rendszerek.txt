@@ -1,0 +1,224 @@
+Feladatai:
+-processzorok, memória, I/O eszközök
+
+Felépítése:
+Kernel
+A kernel feladatai közé tartozik:
+
+A hardver erőforrások inicializálása és kezelése: A kernel felelős a számítógép hardverének inicializálásáért, amikor a rendszer bekapcsol. Ez magában foglalja a processzor, a memória, a perifériás eszközök és egyéb hardver komponensek inicializálását. A kernel továbbá felelős a hardver erőforrások kezeléséért a rendszer futása során. Ez magában foglalja a hardver erőforrások hozzárendelését és felszabadítását a felhasználói alkalmazások számára.
+A folyamatmenedzsment: A kernel felelős a folyamatok létrehozásáért, leállításáért és végrehajtásának ellenőrzéséért. A folyamat egy futó program. A kernel létrehoz új folyamatokat, amikor egy felhasználó alkalmazást indít, és leállítja a folyamatokat, amikor azok befejeződnek. A kernel továbbá felelős a folyamatok végrehajtásának ellenőrzéséért, például a prioritások meghatározásával és a processzor időtartamok kiosztásával.
+A memóriakezelés: A kernel felelős a memória hozzárendelése és felszabadítása a folyamatok számára. A memória egy olyan erőforrás, amelyben a számítógép programjai tárolják az adatokat. A kernel biztosítja, hogy minden folyamatnak elegendő memóriája legyen a futásához, és hogy a folyamatok ne férjenek hozzá egymás memóriájához.
+Az I/O kezelés: A kernel felelős az I/O eszközökhöz való hozzáférés biztosítása a folyamatok számára. Az I/O eszközök olyan eszközök, amelyek a számítógép és a külvilág közötti kommunikációt biztosítják. A kernel biztosítja, hogy a folyamatok hozzáférhessenek a meghajtólemezekhez, a billentyűzethez, az egérhez és egyéb I/O eszközökhöz.
+A biztonsági ellenőrzések végrehajtása: A kernel felelős a felhasználók és alkalmazások hozzáférésének ellenőrzése a rendszer erőforrásaihoz. A kernel biztosítja, hogy csak a jogosult felhasználók férjenek hozzá a rendszer erőforrásaihoz.
+
+
+A kernel működése
+
+A kernel rendszermódban fut, ami egy olyan mód, amelyben a hardver teljes hozzáférése van. A rendszermódban futó programok korlátlan hozzáféréssel rendelkeznek a hardver erőforrásokhoz, de nagy felelősséggel is jár ez a hozzáférés. A rendszermódban futó programok hibái rendszerösszeomláshoz vezethetnek.
+
+A kernel egy összetett szoftver, amely számos különböző funkciót tartalmaz. A kernel megértése fontos az operációs rendszerek működésének megértéséhez.
+
+Felhasználói módú szoftver:
+
+Mit jelent a felhasználói módú szoftver?
+
+A felhasználói módú szoftver olyan szoftver, amelyet egy operációs rendszeren futtatunk. Az operációs rendszer egy olyan program, amely felügyeli a számítógép hardverét és a rajta futó szoftvereket. Az operációs rendszer két fő módra osztja a számítógépet: felhasználói módra és kernel módra.
+
+Mi a különbség a felhasználói mód és a kernel mód között?
+
+A felhasználói módban futó szoftver csak korlátozott hozzáféréssel rendelkezik a számítógép hardveréhez. A kernel módban futó szoftver viszont teljes hozzáféréssel rendelkezik a hardverhez.
+
+Miért fontos a különbség a felhasználói mód és a kernel mód között?
+
+A felhasználói mód és a kernel mód közötti különbség azért fontos, mert megvédi a számítógép hardverét a felhasználói módú szoftvertől. A felhasználói módú szoftver nem tud véletlenül vagy szándékosan kárt okozni a hardverben, mivel csak azokhoz a hardver erőforrásokhoz férhet hozzá, amelyeket a kernel biztosít számára.
+
+Milyen feladatokat lát el a felhasználói módú szoftver?
+
+A felhasználói módú szoftver számos feladatot lát el, beleértve:
+
+A felhasználói interakció kezelését
+Az adatok tárolását és feldolgozását
+Az alkalmazások közötti kommunikáció biztosítását
+Hogyan működik a felhasználói módú szoftver?
+
+A felhasználói módú szoftver a kernel által biztosított API-kat (alkalmazásprogramozási felületeket) használja a hardverhez való hozzáféréshez. Az API-k olyan funkciókat biztosítanak, amelyeket a felhasználói módú szoftver használhat a hardver erőforrások kezelésére.
+
+Példák felhasználói módú szoftverre
+
+A felhasználói módú szoftver példái közé tartoznak:
+
+Az operációs rendszer grafikus felhasználói felülete (GUI)
+Az alkalmazások, például a böngészők, az irodai alkalmazások és a játékok
+A szolgáltatások, például a tárolási szolgáltatások és a hálózati szolgáltatások
+Összefoglalás
+
+A felhasználói módú szoftver olyan szoftver, amelyet egy operációs rendszeren futtatunk. A felhasználói módú szoftver csak korlátozott hozzáféréssel rendelkezik a számítógép hardveréhez. A felhasználói módú szoftver számos feladatot lát el, beleértve a felhasználói interakció kezelését, az adatok tárolását és feldolgozását, valamint az alkalmazások közötti kommunikáció biztosítását.
+
+Íme néhány konkrét példa a felhasználói módú szoftverre:
+
+Amikor megnyitod a böngésződet, a böngésző felhasználói módú szoftver. A böngésző a kernel API-it használja a weboldal megnyitásához és megjelenítéséhez a képernyődön.
+Amikor megnyitsz egy dokumentumot egy irodai alkalmazásban, az irodai alkalmazás felhasználói módú szoftver. Az irodai alkalmazás a kernel API-it használja a dokumentum megnyitásához és szerkesztéséhez.
+Amikor játszol egy játékot, a játék felhasználói módú szoftver. A játék a kernel API-it használja a játék grafikus megjelenítéséhez és a játékmenethez.
+Remélem, hogy ez az összefoglaló segített neked megismerni a felhasználói módú szoftvert.
+
+
+Biztonsági rések típusai
+
+A biztonsági rések olyan hibák vagy hiányosságok egy számítógépes rendszerben, amelyek lehetővé teszik a jogosulatlan hozzáférést vagy szolgáltatások megtagadását. A biztonsági rések számos forrásból származhatnak, beleértve a szoftverhibákat, a hardverhibákat, a konfigurációs hibákat és a felhasználói hibákat.
+
+A biztonsági rések három fő típusra oszthatók:
+
+Szerkezeti rések: Ezek a rések a rendszer architektúrájából vagy tervezéséből erednek. Például egy rendszer, amely nem rendelkezik megfelelő hitelesítési és jogosultságellenőrzési mechanizmusokkal, hajlamos a jogosulatlan hozzáférésre.
+Kép erről: Szerkezeti biztonsági résÚj ablakban nyílik meg
+
+Szerkezeti biztonsági rés
+Alkalmazási rések: Ezek a rések az alkalmazások szoftverkódjából erednek. Például egy alkalmazás, amely nem ellenőrzi megfelelően a felhasználói bemenetet, hajlamos az adatbeviteli támadásokra.
+Kép erről: Alkalmazás biztonsági résÚj ablakban nyílik meg
+
+Alkalmazás biztonsági rés
+Hardverhibák: Ezek a rések a hardverből erednek. Például egy hibás memóriamodul hajlamos a memóriahibákra, amelyeket a támadók kihasználhatnak.
+
+Hardver biztonsági rés
+Biztonsági rések kihasználása
+
+A biztonsági réseket a támadók különböző módon kihasználhatják. A leggyakoribb kihasználási technikák a következők:
+
+Adatbeviteli támadások: Ezek a támadások a felhasználói bemenetet használják fel a rendszerbe történő behatoláshoz. A támadók például rosszindulatú kódot vagy adatokat juttathatnak be az alkalmazásba, hogy átvegyék az ellenőrzést.
+Kép erről: Adatbeviteli támadásÚj ablakban nyílik meg
+
+Adatbeviteli támadás
+Szerveroldalú kérelem manipuláció (CSRF) támadások: Ezek a támadások a felhasználókat arra kényszerítik, hogy olyan kéréseket küldjenek el egy weboldalnak, amelyeket nem szándékoznak elküldeni. A támadók például felhasználhatják a CSRF-t egy felhasználó bankszámlájának feltörésére.
+Kép erről: CSRF támadásÚj ablakban nyílik meg
+
+CSRF támadás
+Fizikai támadások: Ezek a támadások a fizikai hozzáférést használják fel a rendszerhez. A támadók például ellophatják a rendszer hardverét vagy szoftverét, hogy hozzáférjenek az érzékeny adatokhoz.
+
+A számítógép hardverének alapjai
+
+A számítógép hardverének alapvető feladata, hogy a szoftvert futtassa. A szoftver olyan utasítások és adatok összessége, amelyek meghatározzák, hogy a számítógép mit tegyen. A hardver pedig ezeket az utasításokat és adatokat értelmezi és végrehajtja.
+
+A számítógép hardvere négy fő részből áll:
+
+Bemeneti eszközök: Ezek az eszközök lehetővé teszik az ember számára, hogy adatokat és utasításokat küldjön a számítógépnek. Ilyen bemeneti eszközök például a billentyűzet, az egér, a webkamera, a mikrofon és a joystick.
+Központi feldolgozóegység (CPU): A CPU a számítógép „agya”. Ez az a rész, amely értelmezi és végrehajtja a szoftver utasításait.
+Memória: A memória a számítógép rövid távú adattárolójára szolgál. Ebben tárolódnak a futó programok és az adatok.
+Háttértároló: A háttértároló a számítógép hosszú távú adattárolójára szolgál. Ebben tároljuk a programokat, az adatokat és az állományokat.
+A bemeneti eszközök
+
+A bemeneti eszközök lehetővé teszik az ember számára, hogy adatokat és utasításokat küldjön a számítógépnek. A bemeneti eszközök által keletkezett adatokat a CPU értelmezi és végrehajtja.
+
+A leggyakoribb bemeneti eszközök a következők:
+
+Billentyűzet: A billentyűzet segítségével szöveget és számokat lehet bevinni a számítógépbe.
+Egér: Az egér segítségével lehet a számítógép képernyőjén mozogni és kattintásokat végrehajtani.
+Webkamera: A webkamera segítségével képeket és videókat lehet rögzíteni a számítógép segítségével.
+Mikrofon: A mikrofon segítségével hangokat lehet rögzíteni a számítógép segítségével.
+Joystick: A joystick segítségével játékokat lehet játszani a számítógépen.
+A központi feldolgozóegység (CPU)
+
+A CPU a számítógép „agya”. Ez az a rész, amely értelmezi és végrehajtja a szoftver utasításait. A CPU a számítógép egyik legbonyolultabb része, és több millió tranzisztorból áll.
+
+A CPU két fő részből áll:
+
+Aritmetikai és logikai egység (ALU): Az ALU végzi el a számítógép összes matematikai és logikai műveletét.
+Irányítóegység (CU): A CU irányítja a CPU működését.
+A CPU működése a következő lépésekből áll:
+
+A CPU megkapja a futó program következő utasítását.
+Az ALU az utasítást értelmezi és végrehajtja.
+A CU az eredményt visszaadja a futó programnak.
+A memória
+
+A memória a számítógép rövid távú adattárolójára szolgál. Ebben tárolódnak a futó programok és az adatok. A memória a CPU számára biztosítja az adatok és utasítások gyors hozzáférését.
+
+A memória két fő típusa létezik:
+
+Operatív memória (RAM): A RAM a számítógép azon része, amelyben a futó programok és az adatok tárolódnak. A RAM az egyetlen memóriatípus, amelyhez a CPU közvetlenül hozzáférhet.
+Gyorsítótár (cache): A gyorsítótár egy kis mennyiségű gyors memória, amely a CPU közelében található. A gyorsítótár a gyakran használt adatokat tárolja, hogy a CPU gyorsabban hozzáférhessen hozzájuk.
+A háttértároló
+
+A háttértároló a számítógép hosszú távú adattárolójára szolgál. Ebben tároljuk a programokat, az adatokat és az állományokat. A háttértároló a számítógép kikapcsolásakor is megőrzi az adatait.
+
+A háttértároló két fő típusa létezik:
+
+Merevlemez (HDD): A merevlemez a számítógép leggyakrabban használt háttértárolója. A merevlemez egy nagy méretű tárolóeszköz, amely mágnesezhető lemezeken tárolja az adatokat.
+
+A merevlemez alapja egy forgó dob, amelyre mágnesezhető lemezeket helyeznek. A lemezeket olvasó-író fejek írják és olvassák. Az olvasó-író fejek a lemez felett mozognak, és mágnesezéssel állítják be a lemezen lévő biteket.
+
+A merevlemezek kapacitása 160 GB-tól több tíz TB-ig terjedhet. A merevlemezek sebessége is változó, a 7200 fordulat/perctől a 15 000 fordulat/percig terjedhet.
+
+A merevlemezek előnyei:
+
+Nagy kapacitás: A merevlemezek akár több tíz TB-nyi adatot is tárolhanak.
+Költséghatékony: A merevlemezek a háttértárolók közül a legköltséghatékonyabbak.
+Megbízhatóság: A merevlemezek általában megbízhatóan működnek.
+A merevlemezek hátrányai:
+
+Alacsony sebesség: A merevlemezek sebessége alacsonyabb, mint az SSD-ké.
+Zajszennyezés: A merevlemezek forgó lemezei zajt generálhatnak.
+Az SSD (Solid State Drive)
+
+Az SSD egy másik típusú háttértároló, amely nem használ forgó lemezeket. Az SSD-k adatait félvezető memóriában tárolják.
+
+Az SSD-k előnyei:
+
+Magas sebesség: Az SSD-k sebessége sokkal magasabb, mint a merevlemezeké.
+Csendes működés: Az SSD-k nem generálnak zajt.
+Kisebb méret: Az SSD-k kisebbek, mint a merevlemezek.
+Az SSD-k hátrányai:
+
+Alacsonyabb kapacitás: Az SSD-k kapacitása általában alacsonyabb, mint a merevlemezeké.
+Magasabb ár: Az SSD-k általában drágábbak, mint a merevlemezek.
+A háttértároló kiválasztása
+
+A háttértároló kiválasztásakor figyelembe kell venni a következő tényezőket:
+
+A szükséges kapacitás: Mennyit kell tárolni?
+A szükséges sebesség: Milyen gyorsan kell hozzáférni az adatokhoz?
+A költség: Mennyit akarsz költeni?
+Ha nagy mennyiségű adatot kell tárolni, és nem fontos a sebesség, akkor a merevlemez a jó választás. Ha fontos a sebesség, és kevesebb adatot kell tárolni, akkor az SSD a jobb választás.
+
+
+Unix-szerű operációs rendszerek
+
+A Unix-szerű operációs rendszerek olyan operációs rendszerek, amelyek a Unix operációs rendszeren alapulnak, vagy annak kompatibilitását követik. A Unix egy 1969-ben kifejlesztett operációs rendszer, amelyet eredetileg a Bell Labsban fejlesztettek ki. A Unix-szerű operációs rendszerek közé tartozik a Linux, a FreeBSD, a NetBSD, az OpenBSD és a macOS.
+
+A Unix-szerű operációs rendszerek számos előnnyel rendelkeznek a Windows vagy más operációs rendszerekkel szemben. Ezek a rendszerek általában stabilabbak, biztonságosabbak és könnyebben testreszabhatók. A Unix-szerű operációs rendszerek széles körben használják a szervereken, a munkaállomásokon és az oktatási intézményekben.
+
+A Unix-szerű operációs rendszerek jellemzői:
+
+Többfelhasználós: A Unix-szerű operációs rendszerek lehetővé teszik, hogy egyszerre több felhasználó férjen hozzá a rendszerhez.
+Többfeladatú: A Unix-szerű operációs rendszerek lehetővé teszik, hogy egyszerre több program futjon a rendszeren.
+Szálalapú: A Unix-szerű operációs rendszerek támogatják a szálakat, amelyek lehetővé teszik, hogy egy program több feladatot is egyszerre végezzen.
+POSIX-kompatibilis: A Unix-szerű operációs rendszerek általában POSIX-kompatibilisek, ami azt jelenti, hogy a POSIX szabványnak megfelelő programokat futtathatnak.
+A Unix-szerű operációs rendszerek hackelésre való alkalmazása:
+
+A Unix-szerű operációs rendszerek gyakran célpontjai a hackereknek. Ezek a rendszerek általában nyitottabbak a biztonsági résekre, mint a Windows vagy más operációs rendszerek. A Unix-szerű rendszerek hackeléséhez a hackerek gyakran olyan eszközöket használnak, mint az exploitok, a rootkitek és a backdoorek.
+
+Windows operációs rendszerek
+
+A Windows operációs rendszerek egy család, amelybe a Microsoft által fejlesztett és forgalmazott operációs rendszerek tartoznak. A Windows operációs rendszerek közé tartozik a Windows 11, a Windows 10, a Windows 8.1 és a Windows 7.
+
+A Windows operációs rendszerek a legelterjedtebb operációs rendszerek a világon. A Windows operációs rendszereket széles körben használják az asztali számítógépeken, a laptopokon, a táblagépeken és a mobiltelefonokon.
+
+A Windows operációs rendszerek jellemzői:
+
+Grafikus felhasználói felülettel (GUI) rendelkezik.
+Felhasználóbarát.
+Többfelhasználós és többfeladatú.
+Szálalapú.
+A Windows operációs rendszerek hackelésre való alkalmazása:
+
+A Windows operációs rendszerek gyakran célpontjai a hackereknek. Ezek a rendszerek általában nyitottabbak a biztonsági résekre, mint a Unix-szerű operációs rendszerek. A Windows rendszerek hackeléséhez a hackerek gyakran olyan eszközöket használnak, mint az exploitok, a rootkitek és a backdoorek. 
+Windows operációs rendszer
+
+Mobil operációs rendszerek
+
+A mobil operációs rendszerek olyan operációs rendszerek, amelyek mobil eszközökön futnak, például okostelefonokon, táblagépeken és okosórákon. A mobil operációs rendszerek közé tartozik az Android, az iOS, a Windows Mobile és a BlackBerry OS.
+
+A mobil operációs rendszerek számos előnnyel rendelkeznek a hagyományos számítógépes operációs rendszerekkel szemben. Ezek a rendszerek általában kisebbek és hatékonyabbak, mint a hagyományos számítógépes operációs rendszerek. A mobil operációs rendszerek széles körben használják a kommunikációra, a szórakozásra és a munkavégzésre.
+
+A mobil operációs rendszerek jellemzői:
+
+Kis méret: A mobil operációs rendszerek általában kisebbek, mint a hagyományos számítógépes operációs rendszerek.
+Hatékonyság: A mobil operációs rendszerek általában hatékonyabbak, mint a hagyományos számítógépes operációs rendszerek.
